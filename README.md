@@ -1,4 +1,4 @@
-Дополнительная информация:  
+#### Дополнительная информация:  
 Net-tools (arp, ifconfig, netstat, route) - deprecated  
 Iproute2 (ip, ss, tc, nstat)  
 NetworkManager (nmcli)  
