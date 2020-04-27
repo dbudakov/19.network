@@ -6,14 +6,20 @@
 2. [TCP/IP Архитектура, протоколы, реализация(книга)](https://it.wikireading.ru/12404)  
 
 #### otus:  
-[ip cmd cheatsheet](https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf)  
 [Протоколы сетевого взаимодействия TCP/IP](https://www.opennet.ru/docs/RUS/tcpip/)  
 [Networking/CLI](https://fedoraproject.org/wiki/Networking/CLI)  
+[NetworkManager](https://www.hogarthuk.com/?q=node/8)   
+
+tcpdump:  
 [A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic](https://danielmiessler.com/study/tcpdump/)  
 [Packet Analyzer: 15 TCPDUMP](https://www.thegeekstuff.com/2010/08/tcpdump-command-examples)  
 [TCPDUMP: a simple cheatsheet](https://www.andreafortuna.org/2018/07/18/tcpdump-a-simple-cheatsheet/)  
+
+tshark:  
 [TShark](https://www.wireshark.org/docs/man-pages/tshark.html)  
 [tshark tutorial and filter examples](https://hackertarget.com/tshark-tutorial-and-filter-examples/)  
-[NetworkManager](https://www.hogarthuk.com/?q=node/8)   
+
+ip:  
+[ip cmd cheatsheet](https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf)  
 [Linux Advanced Routing & Traffic Control HOWTO_iprout2 [RUS]](https://www.opennet.ru/docs/RUS/LARTC/)  
 [IPROUTE2 Utility Suite Howto [EN]](http://policyrouting.org/iproute2-toc.html)  
