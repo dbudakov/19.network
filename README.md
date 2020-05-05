@@ -70,7 +70,9 @@ clear
 net: 192.168.0.32/28; broadcast: 192.168.0.47; add: 14; min-max: 192.158.0.33-46  
 clear  
 net: 192.168.0.64/26; broadcast: 192.168.0.127; add:62; min-max: 192.168.0.65-126  
-
+  
+### Схема сети  
+![](https://github.com/dbudakov/19.network/blob/master/homework/network.jpg)  
 
 
 
