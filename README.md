@@ -66,11 +66,12 @@ net: 192.168.1.192/26; broadcast: 192.168.1.255; add: 62; min-max: 192.168.1.193
   
 central:  
 net: 192.168.0.0/28; broadcast: 192.168.0.15; add:14; min-max: 192.168.0.1-14   
-clear  
+clear  192.168.0.16-30
 net: 192.168.0.32/28; broadcast: 192.168.0.47; add: 14; min-max: 192.158.0.33-46  
-clear  
+clear  192.168.0.48-62
 net: 192.168.0.64/26; broadcast: 192.168.0.127; add:62; min-max: 192.168.0.65-126  
-  
+clear 192.168.0.128-254
+
 ### Схема сети  
 ![](https://github.com/dbudakov/19.network/blob/master/homework/network.jpg)  
 
