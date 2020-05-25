@@ -22,4 +22,7 @@ tshark:
 ip:  
 [ip cmd cheatsheet](https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf)  
 [IPROUTE2 Utility Suite Howto [EN]](http://policyrouting.org/iproute2-toc.html)  
-[Linux Advanced Routing & Traffic Control HOWTO_iprout2 [RUS]](https://www.opennet.ru/docs/RUS/LARTC/)  
+[Linux Advanced Routing & Traffic Control HOWTO_iprout2 [RUS]](https://www.opennet.ru/docs/RUS/LARTC/) 
+
+netstat:
+[7 примеров использования netstat](https://well-web.net/netstat)  
