@@ -92,3 +92,13 @@ NetworkManager (nmcli)
 `tcpdump` - информаøиā о сетевой активности. Работает максималþно близко к “проводу”  
 `ngrep` - утилита длā поиска пакетов по содержимому, Network grep. По смýслу схожа с tcpdump.  
 `Wireshark (tshark)`
+```
+tcpdump -ennt eth1 proto 1  
+
+tty1>tcpdump -nnt eth1 proto 6 and port 80 and host myip.ru
+tty2>curl -I http://myip.ru/
+
+netstat -n -a - показывает все открытые сокеты с системе
+netstat -n -a -t |grep ^tcp|awk '{print $(NF)}'|sort|uniq -c
+netstat -n -a -t (n - не резалвить имена, all, t - tcp)
+```
