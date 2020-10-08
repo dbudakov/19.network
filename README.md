@@ -101,4 +101,5 @@ tty2>curl -I http://myip.ru/
 netstat -n -a - показывает все открытые сокеты с системе
 netstat -n -a -t |grep ^tcp|awk '{print $(NF)}'|sort|uniq -c
 netstat -n -a -t (n - не резалвить имена, all, t - tcp)
+netstat -n -r отобразить маршруты
 ```
