@@ -103,3 +103,8 @@ netstat -n -a -t |grep ^tcp|awk '{print $(NF)}'|sort|uniq -c
 netstat -n -a -t (n - не резалвить имена, all, t - tcp)
 netstat -n -r отобразить маршруты
 ```
+#### Добавить маршруты networking
+```
+cat>/etc/network/interfaces
+up ip ro ad 192.168.5.0/24 via 192.168.1.1 [dev eth1]
+```
