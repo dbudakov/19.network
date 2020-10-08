@@ -108,7 +108,7 @@ netstat -n -r отобразить маршруты
 cat>/etc/network/interfaces
 up ip ro ad 192.168.5.0/24 via 192.168.1.1 [dev eth1]
 ```
-### Добавить маршруты nmcli
+#### Добавить маршруты nmcli
 ```
 add
 nmcli connection modify external ipv4.routes "10.20.30.0/24 192.168.100.10"
